@@ -18,10 +18,57 @@ Window {
         {
             Layout.fillWidth: true
             Layout.fillHeight: true
+            Layout.preferredHeight: parent.height * 0.5
             color: "red"
             border.color: "black"
             border.width: 5
             radius: 10
+        }
+
+        RowLayout
+        {
+            Layout.preferredWidth: parent.width
+            Layout.preferredHeight: parent.height * 0.25
+            Layout.maximumHeight: 100
+            Layout.minimumHeight: 20
+            width: parent.width
+
+            Button
+            {
+                Layout.alignment: Qt.AlignCenter
+                Layout.preferredWidth: parent.width * 0.25
+                Layout.minimumWidth: 100
+                Layout.fillHeight: true
+                text: "\u25B6"
+                palette.button: "blue"
+                palette.buttonText: "white"
+                font.pixelSize: parent.height * 0.75
+            }
+
+            Button
+            {
+                Layout.alignment: Qt.AlignCenter
+                Layout.preferredWidth: parent.width * 0.25
+                Layout.minimumWidth: 100
+                Layout.fillHeight: true
+                text: "\u23F8"
+                palette.button: "blue"
+                palette.buttonText: "white"
+                font.pixelSize: parent.height * 0.75
+            }
+
+            Button
+            {
+                Layout.alignment: Qt.AlignCenter
+                Layout.preferredWidth: parent.width * 0.25
+                Layout.minimumWidth: 100
+                Layout.fillHeight: true
+                text: "\u23EA"
+                palette.button: "blue"
+                palette.buttonText: "white"
+                font.pixelSize: parent.height * 0.75
+            }
+
         }
     }
 
