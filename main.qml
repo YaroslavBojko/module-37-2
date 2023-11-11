@@ -36,7 +36,7 @@ Window {
             Button
             {
                 Layout.alignment: Qt.AlignCenter
-                Layout.preferredWidth: parent.width * 0.25
+                Layout.preferredWidth: parent.width * 0.19
                 Layout.minimumWidth: 100
                 Layout.fillHeight: true
                 text: "\u25B6"
@@ -48,7 +48,7 @@ Window {
             Button
             {
                 Layout.alignment: Qt.AlignCenter
-                Layout.preferredWidth: parent.width * 0.25
+                Layout.preferredWidth: parent.width * 0.19
                 Layout.minimumWidth: 100
                 Layout.fillHeight: true
                 text: "\u23F8"
@@ -60,7 +60,19 @@ Window {
             Button
             {
                 Layout.alignment: Qt.AlignCenter
-                Layout.preferredWidth: parent.width * 0.25
+                Layout.preferredWidth: parent.width * 0.19
+                Layout.minimumWidth: 100
+                Layout.fillHeight: true
+                text: "\u23F9"
+                palette.button: "blue"
+                palette.buttonText: "white"
+                font.pixelSize: parent.height * 0.75
+            }
+
+            Button
+            {
+                Layout.alignment: Qt.AlignCenter
+                Layout.preferredWidth: parent.width * 0.19
                 Layout.minimumWidth: 100
                 Layout.fillHeight: true
                 text: "\u23EA"
@@ -69,6 +81,17 @@ Window {
                 font.pixelSize: parent.height * 0.75
             }
 
+            Button
+            {
+                Layout.alignment: Qt.AlignCenter
+                Layout.preferredWidth: parent.width * 0.19
+                Layout.minimumWidth: 100
+                Layout.fillHeight: true
+                text: "\u23E9"
+                palette.button: "blue"
+                palette.buttonText: "white"
+                font.pixelSize: parent.height * 0.75
+            }
         }
     }
 
