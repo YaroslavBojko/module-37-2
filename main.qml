@@ -37,7 +37,6 @@ Window {
             {
                 Layout.alignment: Qt.AlignCenter
                 Layout.preferredWidth: parent.width * 0.19
-                Layout.minimumWidth: 100
                 Layout.fillHeight: true
                 text: "\u25B6"
                 palette.button: "blue"
@@ -49,7 +48,6 @@ Window {
             {
                 Layout.alignment: Qt.AlignCenter
                 Layout.preferredWidth: parent.width * 0.19
-                Layout.minimumWidth: 100
                 Layout.fillHeight: true
                 text: "\u23F8"
                 palette.button: "blue"
@@ -61,7 +59,6 @@ Window {
             {
                 Layout.alignment: Qt.AlignCenter
                 Layout.preferredWidth: parent.width * 0.19
-                Layout.minimumWidth: 100
                 Layout.fillHeight: true
                 text: "\u23F9"
                 palette.button: "blue"
@@ -73,7 +70,6 @@ Window {
             {
                 Layout.alignment: Qt.AlignCenter
                 Layout.preferredWidth: parent.width * 0.19
-                Layout.minimumWidth: 100
                 Layout.fillHeight: true
                 text: "\u23EA"
                 palette.button: "blue"
@@ -85,13 +81,18 @@ Window {
             {
                 Layout.alignment: Qt.AlignCenter
                 Layout.preferredWidth: parent.width * 0.19
-                Layout.minimumWidth: 100
                 Layout.fillHeight: true
                 text: "\u23E9"
                 palette.button: "blue"
                 palette.buttonText: "white"
                 font.pixelSize: parent.height * 0.75
             }
+        }
+
+        Slider
+        {
+            Layout.preferredWidth: parent.width
+            Layout.preferredHeight: parent.height * 0.25
         }
     }
 
